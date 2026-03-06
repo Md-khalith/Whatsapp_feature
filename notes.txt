@@ -2,21 +2,24 @@
   "mcpServers": {
     "whatsapp": {
       "command": "node",
-      "args": [
-        "D:\\mcp\\server.js"
-      ],
+      "args": ["D:\\mcp\\server.js"],           <---- change it to your location pointing server.js
       "env": {
-        "WHATSAPP_TOKEN": "EAAWTkRfqI2ABQ7hZAh0lhBqQsMEsOeZATxtJ03iYp4m7eNnFnzECmx4nopAmxejOKdjII8tNKItVMlQpsHQxcQfs7qe6yJzu1jb6n6Wtbh7FY96e1FgaRZCjZCwyt6RCYuP8YYZBCdsTQ80hAFt5rJZCpiaWHOOVIFCIftm3KSIg7RP1DSQwjypIXticNev1f8wEIEK650uzpjAUWZBfmk3pAf9oeZCZBVF74RlgMDDDnwqiMFgjjfSmL7rUBnCsGpGVMgdlPNwVJj7BApZBjmhNPb",
-        "WHATSAPP_PHONE_NUMBER_ID": "924376934101470",
-        "WHATSAPP_API_VERSION": "v19.0",
-        "WEBHOOK_VERIFY_TOKEN": "mysecrettoken123"
+        "WHATSAPP_TOKEN": "your_token",               <----- put your ACCESS TOKEN HERE
+        "WHATSAPP_PHONE_NUMBER_ID": "your_phone_number_id",     <----- put your PHONE NUMBER ID here
+        "WHATSAPP_API_VERSION": "v19.0"
+      }
+    },
+    "whatsapp-templates": {
+      "command": "node",
+      "args": ["D:\\mcp-templates\\template_server_v2.js"],                      <-----change it to your location pointing template_server_v2.js
+      "env": {
+        "WHATSAPP_TOKEN": "your_token",                 <----- put your ACCESS TOKEN HERE
+        "WHATSAPP_BUSINESS_ACCOUNT_ID": "your_waba_id",     <----- put your WABA ID here
+        "WHATSAPP_API_VERSION": "v19.0"
       }
     }
-  },
-  "preferences": {
-    "coworkScheduledTasksEnabled": false,
-    "sidebarMode": "chat",
-    "coworkWebSearchEnabled": true,
-    "menuBarEnabled": false
   }
 }
+
+
+claude->settings->developer->edit config-> paste everything-> close claude and reopen it 
