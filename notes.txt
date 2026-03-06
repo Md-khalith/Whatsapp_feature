@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "whatsapp": {
+      "command": "node",
+      "args": [
+        "D:\\mcp\\server.js"
+      ],
+      "env": {
+        "WHATSAPP_TOKEN": "EAAWTkRfqI2ABQ7hZAh0lhBqQsMEsOeZATxtJ03iYp4m7eNnFnzECmx4nopAmxejOKdjII8tNKItVMlQpsHQxcQfs7qe6yJzu1jb6n6Wtbh7FY96e1FgaRZCjZCwyt6RCYuP8YYZBCdsTQ80hAFt5rJZCpiaWHOOVIFCIftm3KSIg7RP1DSQwjypIXticNev1f8wEIEK650uzpjAUWZBfmk3pAf9oeZCZBVF74RlgMDDDnwqiMFgjjfSmL7rUBnCsGpGVMgdlPNwVJj7BApZBjmhNPb",
+        "WHATSAPP_PHONE_NUMBER_ID": "924376934101470",
+        "WHATSAPP_API_VERSION": "v19.0",
+        "WEBHOOK_VERIFY_TOKEN": "mysecrettoken123"
+      }
+    }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true,
+    "menuBarEnabled": false
+  }
+}
