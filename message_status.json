@@ -98,5 +98,30 @@
     "status": "read",
     "timestamp": "1772111201",
     "updated_at": "2026-03-01T11:40:45.481Z"
+  },
+  "wamid.HBgMOTE5NDQyMDUwNDc1FQIAERgSNkFFNDc4MjA1MzQwNTBDNTdFAA==": {
+    "status": "delivered",
+    "timestamp": "1772960436",
+    "updated_at": "2026-03-08T09:17:56.215Z"
+  },
+  "wamid.HBgMOTE5NDQyMDUwNDc1FQIAERgSQzEzREFEOEI0OTUyMzk1OTBEAA==": {
+    "status": "sent",
+    "timestamp": "1772960190",
+    "updated_at": "2026-03-08T09:44:04.924Z"
+  },
+  "wamid.HBgMOTE5NDQyMDUwNDc1FQIAERgSRUI1REQ5NzUxNzUzRjkyRTQwAA==": {
+    "status": "read",
+    "timestamp": "1772963074",
+    "updated_at": "2026-03-08T09:44:35.193Z"
+  },
+  "wamid.HBgMOTE5NDQyMDUwNDc1FQIAERgSNEVEMTAxM0Y3REIwMUM5N0JGAA==": {
+    "status": "read",
+    "timestamp": "1772963213",
+    "updated_at": "2026-03-08T09:46:54.458Z"
+  },
+  "wamid.HBgMOTE5NDQyMDUwNDc1FQIAERgSNDY3RUM2MzY2RDA1MURBMjVDAA==": {
+    "status": "read",
+    "timestamp": "1772963213",
+    "updated_at": "2026-03-08T09:46:54.396Z"
   }
 }
