@@ -11,11 +11,8 @@
  * webhook and MCP tool share state across calls.
  *
  * Usage:
- *   node server.js
- * (Environment variables are loaded from .env file automatically)
+ *   WHATSAPP_TOKEN=<token> WHATSAPP_PHONE_NUMBER_ID=<id> WEBHOOK_VERIFY_TOKEN=<verify_token> node server.js
  */
-
-require('dotenv').config();
 
 const https = require("https");
 const http  = require("http");
